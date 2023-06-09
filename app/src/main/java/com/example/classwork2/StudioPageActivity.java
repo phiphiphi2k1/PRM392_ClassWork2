@@ -1,6 +1,5 @@
 package com.example.classwork2;
 
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -26,9 +25,6 @@ public class StudioPageActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.description_Studio);
         textView.setText(studio.getDescription());
-
-
-
     }
 
 
